@@ -21,7 +21,7 @@ const Cart = () => {
             <div className={` fixed right-0 top-0 w-full lg:w-[20vw] h-full p-5 bg-white mb-4 ${activeCart ? 'translate-x-0' : 'translate-x-full'} transition-all duration-500 z-50`} >
                 <div className='flex justify-between items-center my-3'>
                     <span className='text-xl font-bold text-green-600'>My Order</span>
-                    <IoCloseCircleSharp onClick={() => setActiveCart(!activeCart)} className='text-xl  text-gray-600 font-bold lg:text-xl rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer' />
+                    <IoCloseCircleSharp onClick={() => setActiveCart(!activeCart)} className='text-4xl  text-gray-600 font-bold lg:text-xl rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer' />
                 </div>
 
                 {
